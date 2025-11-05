@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/auth/1",
+      "dest": "/api/auth/1.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/auth/2",
+      "dest": "/api/auth/2.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/auth/3",
+      "dest": "/api/auth/3.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}

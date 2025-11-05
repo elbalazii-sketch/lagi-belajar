@@ -1,0 +1,167 @@
+body {
+	behavior:url(csshover.htc);
+	width:796px;
+	margin:10px auto ;
+	background-color:#FFF;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+}
+
+h1 { font-size:18px; font-weight:300;}
+p { font-size:11px; font-weight:300;}
+
+#outer-login {
+	width: 796px;
+	height:auto;
+}
+
+#banner {
+	width:100%;
+	height:auto;
+	display:block;
+	margin:10px auto 0 auto;
+}
+#banner img:first-child {
+	padding-bottom: 10px;}
+#nav {
+	display:block;
+	min-height: 30px;
+	background-color: #ccc;
+}
+
+#nav #home {
+	float:left;
+	width:30%;
+	margin-left:10px;
+	padding:0;
+}
+#nav #syarat {
+	float:right;
+	width:35%;
+	margin-right:10px;
+	text-align:right;
+}
+
+#tipsBisnet {  
+      position:absolute;margin:15px 450PX; z-index:0	 ;
+	  float:left
+    }  
+
+#content {
+	float:left;
+	width:792px;
+	height:auto;
+	border-left:2px solid #ccc;
+	border-right:2px solid #ccc;
+}
+#content-login {
+	float:left;
+	width: 475px;
+	height:250px;
+	padding:10px 0 10px 15px;
+}
+#content-versign {
+	float:right;
+	padding:3px;
+	margin:0px;
+	background-color:#fff;
+	border-left:2px dotted #999;
+	text-align:center;
+	color:#555;
+}
+#content-versign p { font-size:8pt; line-height:12px}
+
+
+#footer {
+    clear:both;
+	display:block;
+	background:url(images/bg-footer.jpg) repeat-y;
+    margin:0 auto;
+    font-size: 11px;
+    font-weight:normal;
+    color: #fff;
+    text-align:center;
+    padding: 5px 0;
+}
+
+/* form */
+
+label {
+	min-height:20px;
+	line-height:20px;
+	float:left;
+	background:url(images/2dots.gif) right top no-repeat;
+	vertical-align:top;
+	color:#000;
+}
+.short { width:150px;
+	 font-size:8pt;}
+input, select {
+	font-size:8pt;
+	line-height:20px;
+	height:20px;
+	padding:0px 8px;
+	border:1px solid #999;
+	background-color:#fff;
+    border-radius: 3px;
+	margin:0;
+}
+select {
+	width: 200px;
+}
+
+*html input {
+	line-height:20px;
+	padding:0 3px;
+	overflow:visible;
+}
+input[type="radio"] {
+  margin: 0px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+.btn {
+	width:auto;
+    height: 24px;
+    cursor: pointer;
+	background:#035DA2 url(images/bg-button.gif) left no-repeat;
+	font-family:inherit; /* before : Helvetica, Arial, sans-serif
+
+*/
+	font-size:11px;
+	text-align:left;
+	color:#fff;
+    padding: 0px 20px 3px 30px;
+	margin:0;
+}
+
+.btn1 {
+    width:auto;
+    height: 24px;
+    cursor: pointer;
+    background:#A3A3A3 url(images/btn-info.gif) left no-repeat;
+	color:#fff;
+    padding: 0px 20px 3px 30px;
+    text-decoration:none;
+    margin:0;
+}
+
+*html .btn .btn1{
+	padding: 0 10px 0 20px;
+    width: 0;
+    overflow:visible;
+	line-height:15px;
+}
+
+.tbllogout {
+	float:left;
+	margin:15px auto;}
+
+.tbllogout td {
+	line-height:30px;
+	text-align:center;
+	padding-bottom:35px;
+}
+.text-center {
+	text-align:center;}
+
